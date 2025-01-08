@@ -6,7 +6,6 @@ A twisted Tic-Tac-Toe game, that allows two players to play the classic game but
 
 ## Features
 
-- Two players can enter their names and start the game.
 - A 10x10 grid is displayed, where players can click on empty cells to place their marks.
 - Players take turns marking their spots with 🍄 and 🍄‍🟫.
 - The first player to get five consecutive shrooms in a row, column, or diagonal wins the game.
