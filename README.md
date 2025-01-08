@@ -20,4 +20,5 @@ A twisted Tic-Tac-Toe game, that allows two players to play the classic game but
 - **JavaScript**: Game logic, including player interactions, turn management, win detection, and game restart functionality.
 - **Grid System**: A 10x10 grid using CSS Grid layout for the gameboard.
 
-## Play it here: https://shrooms.vercel.app/
+## Demo: 
+- https://shrooms.vercel.app/
