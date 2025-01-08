@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 80%;
+    max-width: 1200px;
+}
+
+.sidebar {
+    width: 30%;
+}
+
+#game {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#gameboard {
+    display: grid;
+    grid-template-columns: repeat(10, 50px);
+    grid-template-rows: repeat(10, 50px);
+}
+
+.cell {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000;
+    font-size: 1.5rem;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+.cell.taken {
+    cursor: not-allowed;
+    background-color: #f0f0f0;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.hidden {
+    display: none;
+}
+
+#controls {
+    margin-top: 20px;
+}
+
+#winner-message {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    color: green;
+    font-weight: bold;
+}

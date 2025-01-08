@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/svg+xml" href="role.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <h1>Tic-Tac-Toe</h1>
+            <p class="description">Welcome to Tic-Tac-Toe! Players take turns marking a spot on the board with either an
+                "🍄" or "🍄‍🟫".
+                The first player to get 5 mushrooms in a row, either horizontally, vertically, or diagonally, wins the
+                game.
+                Good luck!</p>
+            <div id="player-inputs" class="hidden">
+                <label for="player1">Player 1 Name:</label>
+                <input type="text" id="player1" placeholder="Player 1">
+                <label for="player2">Player 2 Name:</label>
+                <input type="text" id="player2" placeholder="Player 2">
+                <button id="submit-names">Start Game</button>
+            </div>
+        </div>
+
+        <div id="game">
+            <div id="gameboard"></div>
+            <div id="controls">
+                <button id="restart">Start Game</button>
+                <div id="status"></div>
+                <div id="winner-message"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
