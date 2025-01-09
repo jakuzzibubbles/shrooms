@@ -1,9 +1,6 @@
-the-odin-project
+the-odin-project - module 2 JS
 
-# Tic-Tac-Toe Game
-
-A twisted Tic-Tac-Toe game, that allows two players to play the classic game but on a 10x10 grid, where the goal is to get five consecutive mushrooms in a row, column, or diagonal.
-
+# Tic-Tac-Toe 
 ## Features
 
 - A 10x10 grid is displayed, where players can click on empty cells to place their marks.
