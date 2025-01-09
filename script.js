@@ -1,5 +1,5 @@
 const Gameboard = (() => {
-  let board = Array(100).fill(""); // 10x10 grid with 100 spots
+  let board = Array(100).fill(""); 
 
   const winPatterns = [];
 
@@ -121,7 +121,7 @@ const DisplayController = (() => {
     if (winner) {
       statusDiv.textContent =
         winner === "Tie" ? "It's a tie!" : `${winner.name} wins!`;
-      disableBoard(); // Disable further moves after game ends
+      disableBoard();
     } else {
       statusDiv.textContent = `Current Player: ${
         GameController.getCurrentPlayer().name
