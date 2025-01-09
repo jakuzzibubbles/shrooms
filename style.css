@@ -40,7 +40,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid #11c73e;
+    border: 1px solid #047e23;
     font-size: 1.5rem;
     cursor: pointer;
     background-color: #fff;
@@ -53,8 +53,7 @@ body {
 
 button {
     padding: 10px 20px;
-    background-color: #0cdbdb;
-    color: #fff;
+    color: #06263b;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -62,7 +61,7 @@ button {
 }
 
 button:hover {
-    background-color: #6a1bd1;
+    background-color: #0fb0dd;
 }
 
 .hidden {
