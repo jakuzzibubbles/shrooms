@@ -72,3 +72,9 @@ button:hover {
 #controls {
     margin-top: 20px;
 }
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #f1f1f1;
+    margin-top: auto;
+}
